@@ -34,14 +34,25 @@ Light-Blue: #66768a
 Gray: #dbdfe2
 Dark-Blue: #161f2a
 */
-header {
+header,
+footer {
+     clear: both;
+}
 
+header {
+     height: 600px;
+     background: #66768a;
 }
 
 footer {
-     
+     height: 150px;
+     background: #161f2a;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.logo {
+     height: 40px;
+}
