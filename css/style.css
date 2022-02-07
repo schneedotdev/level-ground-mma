@@ -40,12 +40,11 @@ footer {
 }
 
 header {
-     height: 600px;
      background: #66768a;
 }
 
 footer {
-     height: 150px;
+     color: white;
      background: #161f2a;
 }
 
@@ -53,6 +52,119 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+/* shared properties */
+
+.main,
+.section-why,
+.section-split,
+.section-volunteer {
+     margin: 0 auto;
+     text-align: center;
+}
+
+.section-why,
+.section-volunteer {
+     max-width: 40%;
+     color: #161f2a;
+}
+
+
+.primary-footer,
+.primary-header {
+     padding: 25px;
+}
+
+.main,
+.section-why,
+.section-volunteer {
+     padding: 80px 0;
+}
+
+.section-why,
+.section-volunteer {
+     font-size: 1.2rem;
+}
+
+/* header content */
+
+.nav-list {
+     padding: 0;
+     list-style: none;
+     float: left;
+     width: 25%;
+}
+
+.nav-list li {
+     float: left;
+}
+
+.nav-link {
+     color: white;
+     text-decoration: none;
+     padding: 0 15px;
+}
+
+.logo-container {
+     position: absolute;
+     right: 48%;
+     /* display: block;
+     margin: 0 auto; */
+}
+
 .logo {
-     height: 40px;
+     width: 60px;
+}
+
+.nav-button {
+     width: 25%;
+     float: right;
+     text-align: right;
+     margin: 16px 0;
+}
+
+/* main content */
+
+.main {
+     max-width: 75%;
+     font-size: 1.5rem;
+     color: white;
+}
+
+/* why section */
+
+
+
+/* split section */
+.section-split {
+     background: #dbdfe2;
+     width: 100%;
+     float: left;
+}
+
+.filler-img {
+     width: 350px;
+}
+
+.split-left,
+.split-right {
+     padding: 80px;
+     width: 50%;
+     float: left;
+}
+
+/* section volunteer */
+
+.section-volunteer {
+     clear: both;
+}
+
+/* footer content */
+
+.footer-list {
+     list-style: none;
+}
+
+.footer-link {
+     color: white;
+     text-decoration: none;
 }
