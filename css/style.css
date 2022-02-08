@@ -155,11 +155,31 @@ footer {
 
 /* footer content */
 
-.footer-list {
+.footer-list,
+.social-media {
      list-style: none;
 }
 
 .footer-link {
      color: white;
      text-decoration: none;
+}
+
+.section-links,
+.address {
+     float: left;
+     width: 50%;
+}
+
+.section-links {
+     text-align: left;
+}
+
+.address {
+     text-align: right;
+}
+
+.closing {
+     clear: both;
+     text-align: center;
 }
