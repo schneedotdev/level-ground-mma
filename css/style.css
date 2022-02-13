@@ -140,6 +140,7 @@ footer {
      position: relative;
      transition: top ease 0.5s;
 }
+
 .donate:hover {
      top: -5px;
      opacity: 0.95;
@@ -199,6 +200,8 @@ footer {
 
 /* split section */
 .section-split {
+     /* height: 770px;
+     background: #dbdfe2; */
      width: 100%;
      font-size: 1.2rem;
 }
@@ -210,7 +213,7 @@ footer {
 .split-left,
 .split-right {
      background: #dbdfe2;
-     padding: 130px;
+     padding: 9%;
      width: 50%;
      float: left;
 }
