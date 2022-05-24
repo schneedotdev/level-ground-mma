@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Level Ground Mixed Martial Arts</h1>
-  <p>Modern and Responsive website for Level Ground Mixed Martial Arts.</p>
+  <p>Created a modern static website for Level Ground Mixed Martial Arts.</p>
   <p><b>Live Website:</b> https://levelgroundmixedmartialarts.netlify.app/</p>
 </div>
 
@@ -12,4 +12,12 @@
 
 **Tech used:** HTML, CSS
 
-Using HTML and CSS, I utilized modern design techniques to create a responsive static webpage.
+Using HTML and CSS, I utilized modern design techniques to create this beautiful static webpage. I used flex and float to practice separating different sections of this layout.
+
+## Future Optimizations
+
+<ul>
+  <li>Create additional html pages for the Links to lead to.</li>
+  <li>Replace the background image in the main section be a gif.</li>
+  <li>Add media queries to support the screen width of smaller devices</li>
+</ul>
